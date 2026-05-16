@@ -1,7 +1,17 @@
-"""City generation module - converts repository data into 3D city structures."""
+"""City generation module - creates 3D city representation from repository data."""
 
-from .city_generator import CityGenerator
+from .city_generator import (
+    CityGenerator,
+    Building,
+    CityState,
+    LayoutConfig
+)
 
-__all__ = ["CityGenerator"]
+__all__ = [
+    "CityGenerator",
+    "Building",
+    "CityState",
+    "LayoutConfig",
+]
 
 # Made with Bob

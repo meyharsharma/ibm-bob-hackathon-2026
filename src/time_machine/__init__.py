@@ -13,14 +13,14 @@ __author__ = "IBM Bob Hackathon Team"
 
 from .ingestion import RepositoryIngester
 from .city import CityGenerator
-from .rendering import CityRenderer
-from .narration import NarrationGenerator
+# from .rendering import CityRenderer  # TODO: Task 6
+# from .narration import NarrationGenerator  # TODO: Task 9
 
 __all__ = [
     "RepositoryIngester",
     "CityGenerator",
-    "CityRenderer",
-    "NarrationGenerator",
+    # "CityRenderer",  # TODO: Task 6
+    # "NarrationGenerator",  # TODO: Task 9
 ]
 
 # Made with Bob
